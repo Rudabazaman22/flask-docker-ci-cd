@@ -19,7 +19,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker image
-      run: docker build -t rudabazaman22/flask-docker-ci-cd .
+      run: docker build -t rudaba/flask-docker-ci-cd .
 
     - name: Push Docker image
-      run: docker push rudabazaman22/flask-docker-ci-cd
+      run: docker push rudaba/flask-docker-ci-cd
